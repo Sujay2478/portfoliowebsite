@@ -116,9 +116,9 @@
                   />
                   <image
                     class="home__blob-img"
-                    x="-60"
-                    y="-35"
-                    xlink:href="assets/img/WhatsApp Image 2023-11-11 at 16.43.44.jpg"
+                    x="0"
+                    y="-25"
+                    xlink:href="assets/img/depositphotos_73039841-stock-illustration-male-avatar-icon.jpg"
                   />
                 </g>
               </svg>
@@ -129,7 +129,7 @@
                 Computing Science Student
               </h3>
               <p class="home__description">
-                A third-year undergraduate student at
+                A forth-year undergraduate student at
                 <strong>University of Glasgow </strong>
               </p>
               <a href="#contact" class="button button--flex">
@@ -155,7 +155,7 @@
         <span class="section__subtitle">My introduction</span>
 
         <div class="about__container container grid">
-          <img src="assets\img\WhatsApp Image 2023-11-11 at 16.43.44.jpg" alt="" class="about__img" />
+          <img src="assets\img\Screenshot 2024-08-24 192752.png" alt="" class="about__img" />
 
           <div class="about__data">
             <p class="about__description">
@@ -263,6 +263,11 @@
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">jQuery</h3>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">React.js</h3>
                   </div>
                 </div>
                 <div class="skills__data">
@@ -565,7 +570,7 @@
                   >
                   <div class="qualification__calender">
                     <i class="uil uil-calendar-alt"></i>
-                    2021 - 2025
+                    2021 - 2026
                   </div>
                   <span
                     class="button button--flex button--small button--link services__button"
@@ -583,9 +588,16 @@
                             class="uil uil-check-circle services__modal-icon"
                           ></i>
                           <p>
-                            Studying various courses in CS: Data Structures & Algorithms, Object Oriented Programming, Design Patterns, Network & Operating
-                            systems, Data Fundamentals, Systems Programming, Database Systems, Cyber Security, Robotics, HCI
+                            Qualification: Master of Science - MSci in Computing Science
                           </p>
+                          </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>Studying various courses in CS: Data Structures & Algorithms, Object Oriented Programming, Design Patterns, Network & Operating
+                            systems, Data Fundamentals, Systems Programming, Database Systems, Cyber Security, Robotics, HCI</p>
+                        </li>
                         </li>
                         <li class="services__modal-service">
                           <i
@@ -598,7 +610,7 @@
                             class="uil uil-check-circle services__modal-icon"
                           ></i>
                           <p>
-                            Volunteering: Level One Student Mentor
+                            Volunteering: Peer Mentor
                           </p>
                         </li>
                       </ul>
@@ -622,6 +634,24 @@
 
         <div class="portfolio__container container swiper-container">
           <div class="swiper-wrapper">
+            <!-- ------------------------portfollio 4-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/gundam.jpg" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Project Gundam</h3>
+                <p class="portfolio__description">
+                  For my Year 3 project, I'm collaborating with a group to develop a mobile augmented reality app for the UofG gaming lab using Unity and C\#. The software is currently under development and should be completed by March 2024. In June, it will be on show at the next Scottish Exhibition Centre event
+                </p>
+                <a
+                  href="https://stgit.dcs.gla.ac.uk/team-project-h/2023/sh36/sh36-project"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitLab Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
             <!-- ------------------------portfollio 1-------------------- -->
             <div class="portfolio__content grid swiper-slide">
               <img src="assets/img/interviewprep.jpg" class="portfolio__img" />
@@ -680,25 +710,6 @@
                 </a>
               </div>
             </div>
-
-            <!-- ------------------------portfollio 4-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/gundam.jpg" class="portfolio__img" />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Project Gundam</h3>
-                <p class="portfolio__description">
-                  For my Year 3 project, I'm collaborating with a group to develop a mobile augmented reality app for the UofG gaming lab using Unity and C\#. The software is currently under development and should be completed by March 2024. In June, it will be on show at the next Scottish Exhibition Centre event
-                </p>
-                <a
-                  href="https://stgit.dcs.gla.ac.uk/team-project-h/2023/sh36/sh36-project"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitLab Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-              </div>
-            </div>
           </div>
 
           <!-- add arrows -->
@@ -714,17 +725,31 @@
       </section>
 
      <section class="experience section" id="experience">
-    <h2 class="section__title">Experience</h2>
-    <div class="experience__container container">
-        <!-- Experience: GU Orbit -->
+      <h2 class="section__title">Experience</h2>
+        <div class="experience__container container">
+            <!-- Experience: GU Orbit -->
+            <div class="experience__content grid">
+                <img src="assets/img/GUOrbit.jpg" alt="GU Orbit Logo" class="experience__img" />
+                <h3 class="experience__title">GU Orbit</h3>
+                <span class="experience__time"><b>September 2022 - Present</b></span>
+                <p class="experience__description">
+                    I work as Software Engineer at GU Orbit a student-led society at the University of Glasgow, with an aim to become the first student society to launch a satellite into space. As part of the Cloudview Balloon Launch mission, worked on the Python scripts and interfaced BMP180 sensors to Rasberry Pi with i2c connection. Right now I am developing  the prototype of the processing pipeline to be deployed on a aerial testing platform. We are also in early stages of the Astraeus-01 satellite mission, which will be a 4 year Low Earth Orbit CubeSat mission, this mission will briefly consist of sending this small satellite into a Sun Synchronous Orbit.
+                </p>
+                <a href="https://gu-orbit.co.uk/" class="experience__button">
+                    Website<i class="uil uil-external-link-alt"></i>
+                </a>
+            </div>
+        <!-- Experience: NMIS -->
         <div class="experience__content grid">
-            <img src="assets/img/GUOrbit.jpg" alt="GU Orbit Logo" class="experience__img" />
-            <h3 class="experience__title">GU Orbit</h3>
-            <span class="experience__time"><b>September 2022 - Present</b></span>
+            <img src="assets/img/Screenshot 2024-08-24 195417.png" alt="NMIS Logo" class="experience__img nmis-logo" />
+            <h3 class="experience__title">National Manufacturing Institute Scotland</h3>
+            <span class="experience__time"><b>May 2024 - August 2024</b></span>
             <p class="experience__description">
-                I work as Software Engineer at GU Orbit a student-led society at the University of Glasgow, with an aim to become the first student society to launch a satellite into space. As part of the Cloudview Balloon Launch mission, worked on the Python scripts and interfaced BMP180 sensors to Rasberry Pi with i2c connection. Right now I am developing  the prototype of the processing pipeline to be deployed on a aerial testing platform. We are also in early stages of the Astraeus-01 satellite mission, which will be a 4 year Low Earth Orbit CubeSat mission, this mission will briefly consist of sending this small satellite into a Sun Synchronous Orbit.
+              Over the summer, I worked as a software engineer intern at the National Manufacturing Institute Scotland. I was part of the CTO team, where I developed an AI Powered  Carbon Accounting tool. This advanced tool simplifies carbon accounting, promoting sustainability by making complex
+              processes manageable and inclusive. This AI system that can read, extract, and classify invoice data to carry out comprehensive carbon accounting. It also has all of the Scope 3 emissions categories integrated based on the GHG protocol, alongside full carbon accounting functions.
+              And finally it also has a detailed reporting module capable of generating reports based on GHG protocol categories.
             </p>
-            <a href="https://gu-orbit.co.uk/" class="experience__button">
+            <a href="https://nmis.scot//" class="experience__button">
                 Website<i class="uil uil-external-link-alt"></i>
             </a>
         </div>
@@ -733,9 +758,9 @@
         <div class="experience__content grid">
             <img src="assets/img/1645968185892.jpg" alt="loopsio Logo" class="experience__img" />
             <h3 class="experience__title">loopsio</h3>
-            <span class="experience__time"><b>February 2024 - Present</b></span>
+            <span class="experience__time"><b>February 2024 - April 2024</b></span>
             <p class="experience__description">
-                Recently joined loopsio as an AI software engineer. I am working with a team of 5 to develop an AI-driven module app to interpret business queries for the University of Strathclyde. This app will utilize conversational AI, to reduce manual intervention by staff in the enquiry handling process. The app is still in its early developement process. The technologies that are being used to develop this app are: Python, Express.js, Nginx, PostgreSQL, React, OpenAI Products, Git.
+                Worked as a backend developed at loopsio. I worked with a team of 5 to develop an AI-driven module app to interpret business queries for the University of Strathclyde. This app utilized conversational AI, to reduce manual intervention by staff in the enquiry handling process. The technologies that I used to develop this app are: Python, Django, OpenAI API, Git.
             </p>
             <a href="https://loopsio.com/" class="experience__button">
                 Website<i class="uil uil-external-link-alt"></i>
